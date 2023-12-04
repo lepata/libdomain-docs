@@ -1,0 +1,7 @@
+<div class="content row">
+  <div class="text-left">
+      <h2>{{ News?.title }}</h2>
+      <h5>{{ News?.date | date:'dd/MM/yyyy'}}</h5>
+      <blockquote [innerHTML]="News?.detail"></blockquote>
+  </div>
+</div>

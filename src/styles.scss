@@ -1,1 +1,130 @@
 /* You can add global styles to this file, and also import other style files */
+:root[data-bs-theme='dark'] {
+  --bs-body-color: #fff;
+  --bs-body-bg: #17212b;
+  --bs-body-bg: #17212b;
+}
+
+body {
+  font-family: questrial, sans-serif;
+  font-weight: 200;
+  line-height: 1.75;
+}
+
+header {
+  display: block;
+  padding: 57px 0 40px;
+  box-shadow: 0px 5px 25px var(--shadow-color);
+}
+
+footer {
+  display: block;
+  padding: 57px 0 40px;
+  box-shadow: 0px 5px 25px var(--shadow-color);
+  color: var(--bs-gray-400);
+}
+
+.brand-logo {
+  width: 147px;
+}
+
+.bottom {
+  padding-top: 36px;
+  border-top: 1px solid var(--bs-gray-400);
+  display: flex;
+}
+
+.top {
+  padding-bottom: 36px;
+}
+
+.social-links {
+  display: flex;
+  gap: 0.73rem;
+}
+.social-links path {
+  fill: var(--bs-gray-400);
+}
+
+.social-links a:hover svg path {
+  fill: var(--bs-gray-100);
+}
+
+.navigation .navbar-nav .nav-item {
+  -webkit-user-select: none;
+  user-select: none;
+  margin: 0 4px !important;
+}
+.nav-link {
+  color: #fff;
+  padding: 0.2em 0.8em;
+  padding-top: 0.22em;
+}
+.nav-pills .nav-link.active {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1)
+}
+
+.nav-link:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1)
+}
+
+.content blockquote {
+  font-size: 1.2rem !important;
+  padding: .5rem .5rem;
+  padding-top: .5rem;
+  margin: 2rem .2;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  border-radius: 6px;
+  background-color: rgba(97, 238, 188, 4%);
+  border: .5px solid #7D7D7D;
+}
+
+.content blockquote p {
+  margin-bottom: 0 !important
+}
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--bs-gray-400);
+}
+a.line-link {
+  color: var(--bs-gray-400);
+}
+
+a:hover {
+  color: #61eebc;
+}
+
+.line-link:hover::before {
+  width: 100%;
+  right: auto;
+  left: 0;
+}
+
+.line-link {
+  position: relative;
+  opacity: .8
+}
+.line-link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 1px;
+  background: #61eebc;
+  transition: .2s ease
+}
+.line-link:hover {
+  margin-left: 3px;
+  opacity: 1
+}
+

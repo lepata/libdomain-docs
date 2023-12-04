@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="ru" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="358635692190524549" datatype="html">
+        <source>Главная</source>
+        <target>Main</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6233962831675264711" datatype="html">
+        <source>Новости</source>
+        <target>News</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.routes.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3912056945633788310" datatype="html">
+        <source>Исходный код</source>
+        <target>Sources</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8991398879369143888" datatype="html">
+        <source>Примеры использования</source>
+        <target>Example</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.routes.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5331941500811867497" datatype="html">
+        <source>Документация</source>
+        <target>Documentation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.routes.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2392294136293635877" datatype="html">
+        <source>Лицензия</source>
+        <target>License</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">52,53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.routes.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6204065670847243062" datatype="html">
+        <source>Контакты</source>
+        <target>Contacts</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">59,60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.routes.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3521414494852448067" datatype="html">
+        <source>Выбор языка</source>
+        <target>Language select</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">72,73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Phone" datatype="html">
+        <source>Тел.:</source>
+        <target>Phone:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contacts/contacts.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Address" datatype="html">
+        <source>Москва, ул. Бутырская, д. 75</source>
+        <target>Moscow, Butyrskaya street, 75</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">96,97</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contacts/contacts.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="INN" datatype="html">
+        <source>ИНН:</source>
+        <target>ИНН:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contacts/contacts.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1720662309750870781" datatype="html">
+        <source>© ООО «Базальт СПО» — российский разработчик операционных систем «Альт», 2015–2023</source>
+        <target>© Basealt LLC , 2015–2023</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">101,103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4174788828319181616" datatype="html">
+        <source>Libdomain — свободная linux библиотека | BaseALT</source>
+        <target>Libdomain — свободная linux библиотека | BaseALT</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.routes.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7046992037802437026" datatype="html">
+        <source>Ошибка 404</source>
+        <target>Error 404</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.routes.ts</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page-not-found/page-not-found.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3982347406418806608" datatype="html">
+        <source>The free library is being developed by<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> ООО «Базальт Свободное программное обеспечение»</source>
+        <target>Разработку свободной библиотеки ведёт<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Basalt SPO LLC</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contacts/contacts.component.html</context>
+          <context context-type="linenumber">4,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8754208651776736328" datatype="html">
+        <source> Инструкция по разворачиванию стенда </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/docs/docs.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6619864656328956975" datatype="html">
+        <source> Техническая документация к прототипу библиотеки libdomain </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/docs/docs.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5808334611287108507" datatype="html">
+        <source> Libdomain — это открытая библиотека, которая умеет обрабатывать запросы к различным службам каталогов, таких как Microsoft AD, Samba AD, OpenLDAP, FreeIPA. Зная API только одной библиотеки, можно получить доступ ко всем поддерживаемым ею службам каталогов. На текущий момент мы реализовали поддержку OpenLDAP, а к концу 2023 года планируем поддержать Microsoft AD и Samba AD. </source>
+        <target>Libdomain is an open source library that can create queries to various implementations of directory services such as Microsoft AD, Samba AD, OpenLDAP, FreeIPA. The library API provides generic programming interface allowing user to work with any of such implementations in a uniform way. We have implemented OpenLDAP support so far and we plan to get Microsoft AD and Samba AD support by the end of 2023.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">5,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5555317563032937192" datatype="html">
+        <source> Не нужно писать API под каждую службу каталогов. Достаточно использовать библиотеку libdomain, чтобы разработать продукт, который адаптирован, чтобы управлять любыми доменами или позволяющий мигрировать с одного типа домена на другой. Что особенно актуально в связи с текущей политикой импортозамещения. </source>
+        <target>You don't have to write an API for every directory service - just use the libdomain library. The libdomain should allow user manage any kind of domain based on LDAP protocol and users can create utilities that can help them migrate from one type domain to another.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">14,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="735160240496500326" datatype="html">
+        <source> Как это работает? Клиент передаёт API библиотеки запрос. Библиотека его обрабатывает и трансформирует в подходящий запрос для каждой конкретной службы каталогов. В библиотеке есть модуль, который распознает, с которой именно службой каталогов идёт взаимодействия. Служба каталогов принимает запрос и отвечает на него. Библиотека обрабатывает и возвращает клиенту унифицированный ответ. </source>
+        <target>How does it work? The client application sends query to the library API. The library processes it and transforms it into a suitable request for each specific directory service. Library has specific module for detection of current directory type and set of strategies to work with specific implementation of directory service it teracts with. The directory service receives the request and responds to it. The library handle the request and returns a unified response to client application.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">22,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3860972628706270847" datatype="html">
+        <source> Клиенту не нужно заботиться о формате сообщения для конкретной службы каталогов. За него всё сделает библиотека. </source>
+        <target> The client does not need to know the message format for a particular directory service. The library will get it right. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3996131130913082603" datatype="html">
+        <source>Взаимодействие библиотеки libdomain с службам каталогов</source>
+        <target>The library supports the most popular directory services</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1857290760422266674" datatype="html">
+        <source> В библиотеке реализована поддержка наиболее популярных служб каталогов с различными схемами. Вокруг этого модуля реализована связка базовой библиотеки libdomain с фреймворками, такими как QT и .Net. Сама же библиотека представляет собой обвязку вокруг LDAP. </source>
+        <target> The library supports the most popular directory services with various schema files. A examples that show how to interface libdomain core API with frameworks such as QT and .Net were implemented. The library is a binding around libOpenLDAP.  </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">47,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6410181616584365769" datatype="html">
+        <source>Связка базовой библиотеки libdomain с фреймворками</source>
+        <target></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">58,59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7103140623196424775" datatype="html">
+        <source> Библиотека libldap оперирует записями, у каждой из которых есть атрибуты. Сама библиотека не дифференцирует записи как сущности или объекты домена. Для корректного отображения записи ранее в приложении ADMC был разработан модуль adldap, в котором были реализованы критерии вычисления сущности по набору специфических атрибутов. </source>
+        <target>  Libdomain library provides user with ability to manipulate LDAP entries. Earlier versions of ADMC application use built-in adldap module to display the LDAP entries and manipulate domain service. In adldap LDAP entries were supposed to have predetermine set of attributes. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">65,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1487980293076393399" datatype="html">
+        <source>ADMC с модулем adldap</source>
+        <target></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">77,78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2892360810336526856" datatype="html">
+        <source> На текущий момент этот модуль перемещен из приложения ADMC в библиотеку libdomain, таким образом все запросы приложение ADMC адресует API библиотеки libdomain, а она в свою очередь перенаправляет их либо библиотеке libldap, либо libldb. </source>
+        <target> Now module that works with LDAP has been moved from the ADMC application to the libdomain library. So all requests from the ADMC are directed to the libdomain API, and it in turn redirects them to either the libldap or libldb library. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">84,87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1992398010637698787" datatype="html">
+        <source>Модуль adldap в libdomain</source>
+        <target></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">95,96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1972294183156025943" datatype="html">
+        <source>Прочитать новость</source>
+        <target>Read the news</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news-short/news-short.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7073777998795502613" datatype="html">
+        <source>Мы получили грант</source>
+        <target>We have received a grant</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6750503730821431023" datatype="html">
+        <source>&lt;p&gt;Компания «Базальт СПО» получила грантовую поддержку Фонда содействия инновациям на разработку открытой библиотеки libdomain.&lt;/p&gt;</source>
+        <target>&lt;p&gt;The Basalt SPO company has received grant support from the Innovation Promotion Foundation for the development of an open libdomain library.&lt;/p&gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6855828146178851388" datatype="html">
+        <source>&lt;p&gt;Компания «Базальт СПО» получила грантовую поддержку Фонда содействия инновациям на разработку открытой библиотеки libdomain, которая будет предназначена для создания и применения инструментов администрирования доменов с различной организацией: Samba, FreeIPA, Active Directory. С помощью libdomain можно будет создавать и применять единые групповые политики для корпоративной ИТ-инфраструктуры с российскими и зарубежными операционными системами.&lt;/p&gt;&lt;p&gt;А также:&lt;/p&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;библиотека будет включена репозиторий «Сизиф»;&lt;/li&gt;&lt;li&gt;инфраструктура разработки библиотеки находится на территории РФ, принадлежит и поддерживается компанией «Базальт СПО»;&lt;/li&gt;&lt;li&gt;воспользоваться libdomain смогут разработчики всех стран, к примеру, для создания специализированных средств управления доменной инфраструктурой, приложений для миграции с Windows на российские ОС на ядре Linux, специализированных модулей для powershell.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</source>
+        <target>&lt;p&gt;The Basalt SPO company has received grant support from the Innovation Promotion Foundation for the development of an open libdomain library, which will be designed to create and use domain administration tools with various organizations: Samba, FreeIPA, Active Directory. With the help of libdomain, it will be possible to create and apply unified group policies for corporate OT infrastructure with Russian and foreign operating systems.&lt;/p&gt;&lt;p&gt;And also:&lt;/p&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;the library will include the Sisyphus repository;&lt;/li&gt;&lt;li&gt;the library development infrastructure is located on the territory of the Russian Federation, owned and maintained by Basalt SPO;&lt;/li&gt;&lt;li&gt;developers from all countries can use libdomain, for example, to create specialized domain infrastructure management tools, applications for migration from Windows to Russian OS on Linux kernel, specialized modules for powershell.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3890089016423477181" datatype="html">
+        <source>Начало положено. Проект стартовал!</source>
+        <target>A start has been made. The project has started</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6623028863067867610" datatype="html">
+        <source>&lt;p&gt;21 декабря 2022 года наша команда приступила к выполнению первого этапа проекта «Разработка открытой библиотеки для управления доменной инфраструктурой на основе службы каталогов Samba».&lt;/p&gt;</source>
+        <target>&lt;p&gt;On December 21, 2022, our team started the first stage of the project "Development of an open library for domain infrastructure management based on the Samba directory service".&lt;/p&gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4697132866784608518" datatype="html">
+        <source>&lt;p&gt;21 декабря 2022 года наша команда приступила к выполнению первого этапа проекта «Разработка открытой библиотеки для управления доменной инфраструктурой на основе службы каталогов Samba». В рамках этапа планируется собрать сведения и проанализировать объекты и их свойства в домене AD* для дальнейшей разработки системной архитектуры прототипа.&lt;/p&gt;&lt;p&gt;libdomain — это библиотека, которая будет упрощать работу с LDAP, предоставляя простой и понятный API, позволяя её пользователям получить интеграцию с Qt* или GTK*. Проект разрабатывается на языке C с использованием системы сборки Cmake. Ознакомится с кодом библиотеки можно в репозитории.&lt;/p&gt;&lt;p&gt;AD* — Microsoft Active Directory&lt;br /&gt;Qt* — кроссплатформенная библиотека элементов интерфейса&lt;br /&gt;GTK* — кроссплатформенная библиотека элементов интерфейса&lt;/p&gt;</source>
+        <target>&lt;p&gt;On December 21, 2022, our team started the first stage of the project "Development of an open library for domain infrastructure management based on the Samba directory service". As part of the stage, it is planned to collect information and analyze objects in the AD* domain and their properties for further development of the prototype system architecture.&lt;/p&gt;&lt;p&gt;libdomain is a library that will simplify working with LDAP by providing a simple and intuitive API, allowing its users to get integration with Qt* or GTK*. The project is being developed in C using the Cmake build system. You can get acquainted with the library code in the repository.&lt;/p&gt;&lt;p&gt;AD* — Microsoft Active Directory&lt;br /&gt;Qt* — cross-platform library of interface elements&lt;br /&gt;GTK* — cross-platform library of interface elements&lt;/p&gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6232633141429366307" datatype="html">
+        <source>Наработки</source>
+        <target>Developments</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="11953050522571471" datatype="html">
+        <source>&lt;p&gt;Ранее нами была разработана утилита ADMC для управления объектами службы каталогов.&lt;/p&gt;</source>
+        <target>&lt;p&gt;Previously, we created a utility for managing objects of the ADMC directory service.&lt;/p&gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5352150829295275316" datatype="html">
+        <source>&lt;p&gt;Ранее нами была разработана утилита ADMC для управления объектами службы каталогов. В её состав входит библиотека для работы с объектами службы каталогов libadldap. Для развития проекта, указанного в гранте, мы планируем использовать наработки полученные в ходе разработки утилиты ADMC и библиотеки libadldap.&lt;/p&gt;</source>
+        <target>&lt;p&gt;Previously, we created a utility for managing objects of the ADMC directory service. It includes a library for working with objects of the libadldap directory service. For the development of the project specified in the grant, we plan to use the developments obtained during the development of the above utilities and libraries.&lt;/p&gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3695834042370619175" datatype="html">
+        <source>Завершена разработка требований</source>
+        <target>Requirements development has been completed</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5831516572860325744" datatype="html">
+        <source>&lt;p&gt;Наша команда завершила разработку требований к библиотеке libdomain.&lt;/p&gt;</source>
+        <target>&lt;p&gt;Our team has completed the development of the requirements for the libdomain library.&lt;/p&gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7783645826810816014" datatype="html">
+        <source>&lt;p&gt;Мы рады сообщить, что наша команда завершила разработку требований к библиотеке libdomain. Был проведен первичный анализ документации по текущим реализациям LDAP-серверов и стандартам LDAP, что позволит нам быстрее и качественнее вести дальнейшую разработку.&lt;/p&gt;</source>
+        <target>&lt;p&gt;We are pleased to inform you that our team has completed the development of the requirements for the libdomain library. An initial analysis of documentation on current LDAP server implementations and LDAP standards was also carried out, which will allow us to conduct further development faster and better.&lt;/p&gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6291555729449585472" datatype="html">
+        <source>Начата разработка инфраструктуры тестовых стендов</source>
+        <target>The development of the infrastructure of test benches has begun</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5133433789044265228" datatype="html">
+        <source>&lt;p&gt;Приступили к разработке архитектуры тестовых стендов.&lt;/p&gt;</source>
+        <target>&lt;p&gt;Our team has started developing the architecture of test benches.&lt;/p&gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5320230987975059339" datatype="html">
+        <source>&lt;p&gt;Наша команда приступила к разработке архитектуры тестовых стендов. Для тестирования планируется использовать LDAP-сервисы OpenLDAP и Samba. Такое решение позволит с одной стороны тестировать разрабатываемый продукт в условиях приближенных к реальным, а с другой быстрее разворачивать тестовое окружение. Для упрощения процесса тестирования и построения отчётов решено было использовать несколько тестовых окружений на основе Docker.&lt;/p&gt;</source>
+        <target>&lt;p&gt;Our team has started developing the architecture of test benches. It is planned to use OpenLDAP and Samba LDAP services for testing. Such a solution will allow us, on the one hand, to test the product under development in conditions close to real ones, and on the other hand, to deploy the test environment faster. To simplify the testing and reporting process, it was decided to use several Docker-based test environments.&lt;/p&gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3604324186882572564" datatype="html">
+        <source>Завершение проектирования и разработки тестовых стендов</source>
+        <target>Completion of design and development of test benches</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8917477616573874339" datatype="html">
+        <source>&lt;p&gt;Разработаны тестовые стенды.&lt;/p&gt;</source>
+        <target></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8605187546121668345" datatype="html">
+        <source>&lt;p&gt;Наша команда завершила разработку тестовых стендов.&lt;/p&gt;</source>
+        <target></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5572633774055683092" datatype="html">
+        <source>Завершен первый этап проекта</source>
+        <target>The first stage of the project has been completed</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3967520542834278514" datatype="html">
+        <source>&lt;p&gt;Команда компании «Базальт СПО» успешно завершила первый этап проекта «Разработка открытой библиотеки для управления доменной инфраструктурой на основе службы каталогов Samba».&lt;/p&gt;</source>
+        <target>&lt;p&gt;The Basalt SPO team has successfully completed the first stage of the project “Development of an open library for domain infrastructure management based on the Samba directory service".&lt;/p&gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8497061857806127582" datatype="html">
+        <source>&lt;p&gt;Команда компании «Базальт СПО» успешно завершила первый этап проекта «Разработка открытой библиотеки для управления доменной инфраструктурой на основе службы каталогов Samba». На первом этапе библиотека получила следующий набор функционала: (перечень возьмём из протокола тестирования). Прототип библиотеки на текущий момент адаптирован для объектов схемы домена OpenLDAP.&lt;/p&gt;</source>
+        <target>&lt;p&gt;The Basalt SPO team has successfully completed the first stage of the project “Development of an open library for domain infrastructure management based on the Samba directory service". At the first stage, the library received the following set of functionality: (we will take the list from the test protocol). The library prototype is currently adapted for OpenLDAP domain schema objects.&lt;/p&gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5960894866551190426" datatype="html">
+        <source>Кажется, что-то пошло не так! Станица, которую вы запрашиваете не существует. Возможно она была удалена, или вы набрали неверный адрес. </source>
+        <target>It seems something went wrong! The page you are requesting does not exist. It may have been deleted, or you may have entered the wrong address.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page-not-found/page-not-found.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1718374880801763687" datatype="html">
+        <source>Go back to the main page</source>
+        <target></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page-not-found/page-not-found.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
