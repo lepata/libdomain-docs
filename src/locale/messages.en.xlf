@@ -436,6 +436,54 @@
           <context context-type="linenumber">55</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="8307875657517242401" datatype="html">
+        <source>Доступна версия 0.8.0</source>
+        <target>Version 0.8.0</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2200893843348209978" datatype="html">
+        <source>&lt;p&gt;Выпущена версия 0.8.0, которая содержит исправления ошибок.&lt;/p&gt;</source>
+        <target>&lt;p&gt;Version 0.8.0 has been released, which is a release containing bug fixes.&lt;/p&gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6761176119516320416" datatype="html">
+        <source>&lt;p&gt;Выпущена версия 0.8.0, которая является релизом, содержащим в себе исправления ошибок. Реализовано автоматическое определение типа сервиса каталога, на данный момент поддерживаются OpenLDAP и ActiveDirectory(Samba).&lt;/p&gt;&lt;p&gt;Начата работа над поддержкой схемы ActiveDirectory.&lt;/p&gt;</source>
+        <target>&lt;p&gt;Version 0.8.0 has been released, which is a release containing bug fixes. Automatic detection of the directory service type is implemented OpenLDAP and Active Directory(Samba) are currently supported. &lt;/p&gt;&lt;p&gt;Work has begun on addition of support for the Active Directory schema.&lt;/p&gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5511440638354127750" datatype="html">
+        <source>Завершена разработка версии 0.9.0</source>
+        <target>Version 0.9.0 has been completed</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8006133323109285467" datatype="html">
+        <source>&lt;p&gt;В данной версии доступны новые функции блокировки и разблокировки пользователей OpenLDAP.&lt;/p&gt;</source>
+        <target>&lt;p&gt;In this version, new functions for blocking and unblocking users in OpenLDAP are available.&lt;/p&gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8093720903679765772" datatype="html">
+        <source>&lt;p&gt;Завершена разработка версии 0.9.0. В данной версии доступны новые функции блокировки и разблокировки пользователей OpenLDAP. Реализовано добавление, удаление, изменение, переименование компьютеров (computer) для OpenLDAP.&lt;/p&gt;&lt;p&gt;Реализована установка шифрованного соединения LDAPS (при использовании TLS/SSL).&lt;/p&gt;</source>
+        <target>&lt;p&gt;The development of version 0.9.0 has been completed. In this version, new functions for blocking and unblocking users in OpenLDAP are available. Implementation of addition, deletion, changing and renaming computers (devices) for OpenLDAP are also available. &lt;/p&gt;&lt;p&gt;New version supports establishing of an encrypted LDAPS connections (using TLS/SSL).&lt;/p&gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/news.service.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="5960894866551190426" datatype="html">
         <source>Кажется, что-то пошло не так! Станица, которую вы запрашиваете не существует. Возможно она была удалена, или вы набрали неверный адрес. </source>
         <target>It seems something went wrong! The page you are requesting does not exist. It may have been deleted, or you may have entered the wrong address.</target>
