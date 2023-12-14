@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 import contents from "../../assets/libdomain-c-sample.txt";
-//alert(contents);
+
 @Component({
-  selector: 'app-example',
+  selector: 'app-example-c1',
   standalone: true,
   imports: [],
-  templateUrl: './example.component.html',
-  styleUrl: './example.component.scss'
+  templateUrl: './example-c1.component.html',
+  styleUrl: './example-c1.component.scss'
 })
-export class ExampleComponent {
+export class ExampleC1Component {
   classPreview = contents
 
 }

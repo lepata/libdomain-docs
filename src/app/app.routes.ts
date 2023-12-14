@@ -6,6 +6,7 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { DocsComponent } from './docs/docs.component';
 import { LicenseComponent } from './license/license.component';
 import { ExampleComponent } from './example/example.component';
+import { ExampleC1Component } from './example-c1/example-c1.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
@@ -33,6 +34,11 @@ export const routes: Routes = [
     path: 'example',
     component: ExampleComponent,
     title: $localize `Примеры использования`
+  },
+  {
+    path: 'example/example1',
+    component: ExampleC1Component,
+    title: $localize `Пример использования библиотеки libdomain в программе на языке C`
   },
   {
     path: 'docs',
