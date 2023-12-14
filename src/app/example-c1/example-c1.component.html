@@ -1,0 +1,157 @@
+<div class="content row">
+  <div class="text-left">
+      <h3>Пример использования библиотеки libdomain в программе на языке C</h3>
+
+    <blockquote>
+      <p i18n>
+        Ниже приведён пример программы на языке C, которая использует
+        библиотеку libdomain для выполнения операции поиска LDAP.
+        Программа устанавливает соединение с сервером LDAP,
+        выполняет поиск в указанном сервере каталога.
+      </p>
+      <p></p>
+
+      <p i18n>
+        Программа принимает аргументы командной строки для указания параметров
+        соединения с сервером LDAP и параметров поиска:
+      </p>
+
+      <pre class="prettyprint lang-bash">./libdomain-c-sample --host ldap://dc.example.org:389 --user administrator --pass password --bind "dc=example,dc=org" --sasl</pre>
+
+      <p i18n>
+        Опции командной строки:
+      </p>
+      <ul>
+        <li>
+          <span class="font-monospace">--host (-h)</span> — сервер LDAP
+          в формате «протокол://адрес:порт»,
+          например, «ldap://example.org:389»;
+        </li>
+        <li>
+          <span class="font-monospace">--user (-u)</span> — имя пользователя LDAP;
+        </li>
+        <li>
+          <span class="font-monospace">--pass (-w)</span> — пароль LDAP;
+        </li>
+        <li>
+          <span class="font-monospace">--bind (-b)</span> — DN (Distinguished Name) для привязки к LDAP,
+          например, «dc=example,dc=org»;
+        </li>
+        <li>
+          <span class="font-monospace">--sasl (-s)</span> — включить
+          использование SASL-привязки.
+        </li>
+      </ul>
+    </blockquote>
+
+    <pre class="prettyprint linenums lang-c">{{ classPreview }}</pre>
+
+
+    <blockquote>
+      <h4>Структура программы</h4>
+      <p i18n>
+        Функции обработки событий:
+      </p>
+      <ul>
+        <li>
+          <span class="font-monospace">exit_callback</span> — вызывает событие
+          завершения программы;
+        </li>
+        <li>
+          <span class="font-monospace">connection_on_error</span> — обрабатывает
+          ошибки во время операций LDAP;
+        </li>
+        <li>
+          <span class="font-monospace">connection_on_update</span> — обрабатывает
+          обновления состояния соединения и обрабатывает ошибки
+          во время установки соединения.
+        </li>
+      </ul>
+
+      <p i18n>
+        Обработка опций:
+      </p>
+      <ul>
+        <li>
+          <span class="font-monospace">parse_opt</span> — разбирает опции
+          командной строки с использованием библиотеки argp.
+        </li>
+      </ul>
+
+      <p i18n>
+        Основная функция:
+      </p>
+      <ol>
+        <li>
+          При помощи функции <span class="font-monospace">talloc_new</span>
+          создаётся новый контекст <span class="font-monospace">talloc</span>.
+        </li>
+        <li>
+          Инициализируется структура <span class="font-monospace">arguments</span>,
+          которая служит для хранения аргументов командной строки.
+        </li>
+        <li>
+          При помощи функции <span class="font-monospace">argp_parse</span>
+          производится обработка аргументов командной строки.
+        </li>
+        <li>
+          Происходит проверка обязательных аргументов <span class="font-monospace">host</span>
+          и <span class="font-monospace">bind_dn</span>,
+          если эти аргументы не найдены программа завершается.
+        </li>
+        <li>
+          Создаётся структура для конфигурации для подключения к серверу LDAP,
+          при помощи функции <span class="font-monospace">ld_config</span>.
+        </li>
+        <li>
+          Инициализируется основной указатель библиотеки handle при помощи
+          функции <span class="font-monospace">ld_init</span>.
+        </li>
+        <li>
+          Устанавливаются стандартные обработчики событий
+          <span class="font-monospace">ld_install_default_handlers(handle)</span>.
+        </li>
+        <li>
+          Устанавливается обработчик с основной логикой программы:
+          <span class="font-monospace">ld_install_handler(handle, connection_on_update, update_interval)</span>.
+        </li>
+        <li>
+          Устанавливается обработчик, который выключает программу через 10 секунд:
+          <span class="font-monospace">ld_install_handler(handle, exit_callback, exit_time)</span>.
+        </li>
+        <li>
+          Устанавливаются обработчики ошибок.
+        </li>
+        <li>
+          Запуск основного цикла событий с помощью <span class="font-monospace">ld_exec</span>.
+        </li>
+        <li>
+          Выполняется поиск.
+        </li>
+        <li>
+          Очищаются ресурсы при помощи функций: <span class="font-monospace">ld_free(handle)</span>
+          и <span class="font-monospace">talloc_free(talloc_ctx)</span>.
+        </li>
+      </ol>
+
+      <h4>Обработка ошибок</h4>
+
+      <p>
+        Ошибки, такие как невозможность выполнения операций LDAP, приводят
+        к завершению программы с соответствующим сообщением об ошибке. Обработка
+        ошибок реализована в функции <span class="font-monospace">connection_on_error</span>.
+        Однако обработка ошибок соединения происходит в функции
+        <span class="font-monospace">connection_on_update</span>.
+      </p>
+
+      <h4>Примечания</h4>
+
+      <p>
+        Программа выполняет LDAP-поиск при изменении состояния соединения
+        на <span class="font-monospace">LDAP_CONNECTION_STATE_RUN</span>.
+        Объекты для поиска задаются в переменной
+        <span class="font-monospace">LDAP_DIRECTORY_ATTRS</span>.
+      </p>
+    </blockquote>
+  </div>
+</div>
