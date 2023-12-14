@@ -36,7 +36,7 @@ export const routes: Routes = [
     title: $localize `Примеры использования`
   },
   {
-    path: 'example/example1',
+    path: 'test1',
     component: ExampleC1Component,
     title: $localize `Пример использования библиотеки libdomain в программе на языке C`
   },
