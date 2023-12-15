@@ -1,0 +1,124 @@
+<div class="content row">
+  <div class="text-left">
+    <h3 i18n>Пример использования библиотеки libdomain совместно с фреймворком Qt</h3>
+
+    <blockquote>
+      <p i18n>
+        Ниже приведён пример программы на языке C, которая использует
+        библиотеку libdomain для выполнения операции поиска LDAP.
+        Программа устанавливает соединение с сервером LDAP и выполняет
+        запрос на поиск для получения записи RootDSE в указанном каталоговом сервере.
+      </p>
+
+      <p i18n>
+        Запуск программы:
+      </p>
+
+      <pre class="prettyprint lang-bash">$ ./libdomain-qt-sample</pre>
+
+      <p i18n>
+        Будет открыто диалоговое окно, где пользователь может указать
+        параметры подключения к серверу LDAP:
+      </p>
+
+      <div class="lead text-center">
+        <img
+          src="assets/connection_dialog.png"
+          i18n-alt alt="Диалог подключения к серверу"
+          class="img-fluid">
+      </div>
+
+      <p i18n>
+        Основное окно программы:
+      </p>
+
+      <div class="lead text-center">
+        <img
+          src="assets/rootdse.png"
+          i18n-alt alt="Основное окно программы"
+          class="img-fluid">
+      </div>
+
+
+      <h4 i18n>Структура программы</h4>
+      <p i18n>
+        Программа состоит из следующих модулей:
+      </p>
+      <ul>
+        <li i18n>
+          <span class="font-monospace">MainWindow</span> — класс, который
+          инициализирует библиотеку libdomain. Следует обратить внимание,
+          что новый цикл событий не запускается, а используется цикл событий qt.
+          Для этого ничего не нужно делать дополнительно,
+          достаточно проинициализировать библиотеку.
+        </li>
+      </ul>
+
+      <pre class="prettyprint linenums lang-c">{{ classPreview1 }}</pre>
+        <ul>
+          <li i18n>
+            <span class="font-monospace">AttributesModel</span> — класс унаследованный
+            от <span class="font-monospace">QStandardItemModel</span>. Данный класс
+            осуществляет основную работу. Он отправляет запрос к LDAP серверу,
+            получая от него список атрибутов записи RootDSE.
+            В конструкторе создаётся поисковый запрос для libdomain
+            и запрашивается список атрибутов при помощи функции <span class="font-monospace">search_callback</span>.
+            Как только <span class="font-monospace">search_callback</span>
+            вызовет сигнал <span class="font-monospace">AttributesModelPrivate::ready</span>,
+            начинается заполнение модели данными. Предполагается, что к этому моменту уже
+            есть проинициализированный указатель библиотеки
+            <span class="font-monospace">ldhandle</span> и соединение уже установлено.
+          </li>
+        </ul>
+        <pre class="prettyprint linenums lang-c">{{ classPreview2 }}</pre>
+
+        <ul>
+          <li i18n>
+            <span class="font-monospace">ConnectionDialog</span> — содержит
+            диалог настроек подключения. При успешном заполнении он создаёт
+            структуру <span class="font-monospace">ConnectionSettings</span>.
+          </li>
+          <li i18n>
+            <span class="font-monospace">ConnectionSettings</span> — содержит
+            настройки подключения такие как: сервер, имя пользователя, пароль,
+            bind_dn, использование интерактивного подключения.
+          </li>
+        </ul>
+
+      <h4 i18n>Обработка ошибок</h4>
+
+      <p i18n>
+        Обработка ошибок подключения осуществляется библиотекой libdomain
+        автоматически при помощи встроенных в неё функций.
+        При желании можно установить свой обработчик при помощи функции
+        <span class="font-monospace">ld_install_error_handler(handle, connection_on_error)</span>,
+        передав ей callback нужный <span class="font-monospace">connection_on_error</span>.
+      </p>
+
+      <h4 i18n>Компиляция</h4>
+
+      <p>
+        <a i18n-href href="https://github.com/libdomain/libdomain-qt-sample/blob/master/README.RU.md"
+          target="_blank" i18n>Ссылка на пример</a>
+      </p>
+
+      <p i18n>
+        Для компиляции программы необходимо установить библиотеку libdomain:
+      </p>
+
+      <pre class="prettyprint lang-bash"># apt-get install libdomain-devel libconfig-devel cmake rpm-build qt5-base-devel</pre>
+
+      <p i18n>
+        Далее следует склонировать пример:
+      </p>
+
+      <pre class="prettyprint lang-bash">$ git clone https://github.com/libdomain/libdomain-qt-sample</pre>
+
+      <p i18n>
+        Команда компиляции:
+      </p>
+
+      <pre class="prettyprint lang-bash">$ mkdir build && cd build && cmake .. && make -j `nproc`</pre>
+    </blockquote>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+d->handle = ldhandle;
+
+    privateData = d.get();
+
+    search(d->handle->connection_ctx,
+           "",
+           LDAP_SCOPE_BASE,
+           NULL,
+           const_cast<char**>(LDAP_ATTRS),
+           0,
+           search_callback);
+
+    connect(d.get(), &AttributesModelPrivate::ready, [&]()
+    {
+        for (size_t i = 0; i < d->attributes.size(); ++i)
+        {
+            QStandardItem* nameItem = new QStandardItem();
+            nameItem->setText(d->attributes[i].name);
+
+            QStandardItem* valueItem = new QStandardItem();
+            valueItem->setText(d->attributes[i].values.join(";"));
+
+            this->appendRow({nameItem, valueItem});
+        }
+    });

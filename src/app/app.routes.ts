@@ -7,6 +7,7 @@ import { DocsComponent } from './docs/docs.component';
 import { LicenseComponent } from './license/license.component';
 import { ExampleComponent } from './example/example.component';
 import { ExampleC1Component } from './example-c1/example-c1.component';
+import { ExampleQtComponent } from './example-qt/example-qt.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
@@ -39,6 +40,11 @@ export const routes: Routes = [
     path: 'example/example1',
     component: ExampleC1Component,
     title: $localize `Пример использования библиотеки libdomain в программе на языке C`
+  },
+  {
+    path: 'example/exampleqt',
+    component: ExampleQtComponent,
+    title: $localize `Пример использования библиотеки libdomain совместно с фреймворком Qt`
   },
   {
     path: 'docs',
