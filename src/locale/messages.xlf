@@ -17,7 +17,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.routes.ts</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">24</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3912056945633788310" datatype="html">
@@ -35,7 +35,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.routes.ts</context>
-          <context context-type="linenumber">37</context>
+          <context context-type="linenumber">38</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3824682829872179879" datatype="html">
@@ -53,7 +53,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.routes.ts</context>
-          <context context-type="linenumber">52</context>
+          <context context-type="linenumber">58</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2392294136293635877" datatype="html">
@@ -64,7 +64,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.routes.ts</context>
-          <context context-type="linenumber">57</context>
+          <context context-type="linenumber">63</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6204065670847243062" datatype="html">
@@ -75,7 +75,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.routes.ts</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3521414494852448067" datatype="html">
@@ -129,14 +129,14 @@
         <source>Libdomain — свободная linux библиотека | BaseALT</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.routes.ts</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9101292395451506108" datatype="html">
         <source>Пример использования библиотеки libdomain в программе на языке C</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.routes.ts</context>
-          <context context-type="linenumber">42</context>
+          <context context-type="linenumber">43</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
@@ -151,7 +151,7 @@
         <source>Пример использования библиотеки libdomain совместно с фреймворком Qt</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.routes.ts</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">48</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
@@ -162,11 +162,26 @@
           <context context-type="linenumber">9,10</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="7923034905039566430" datatype="html">
+        <source>Пример использования библиотеки libdomain совместно с PowerShell</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.routes.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example/example.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="7046992037802437026" datatype="html">
         <source>Ошибка 404</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.routes.ts</context>
-          <context context-type="linenumber">62</context>
+          <context context-type="linenumber">68</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page-not-found/page-not-found.component.html</context>
@@ -493,6 +508,197 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
           <context context-type="linenumber">118,119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3320598069798866784" datatype="html">
+        <source>Как построить библиотеку libdomain и модули PowerShell</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">7,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5357302536062363195" datatype="html">
+        <source>1. Установка PowerShell на Linux</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8977039394266473452" datatype="html">
+        <source> Чтобы построить библиотеку libdomain и модули PowerShell на Linux, сначала необходимо установить PowerShell.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3322295379809836010" datatype="html">
+        <source> На дистрибутивах «Альт» для этого достаточно установить пакет powershell: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7152658229910539223" datatype="html">
+        <source> На других дистрибутивах можно выполнить следующие шаги: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">51,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="993380218594751352" datatype="html">
+        <source> Скачать пакет для требуемого дистрибутива с официальной страницы выпусков PowerShell на GitHub: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://github.com/PowerShell/PowerShell/releases&quot; target=&quot;_blank&quot;&gt;"/> Релизы PowerShell <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">26,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6725299051757344901" datatype="html">
+        <source> Установить пакет, следуя инструкциям по установке, предоставленным для конкретного дистрибутива. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">33,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3890383976863662792" datatype="html">
+        <source>2. Установка .NET и SDK на Linux</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">38,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5220518040328591779" datatype="html">
+        <source> Следующий шаг после установки PowerShell — настройка среды .NET и необходимых SDK.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7711715777461195725" datatype="html">
+        <source> На дистрибутивах «Альт» для этого достаточно установить пакет dotnet-sdk-7.0: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7923095860729976244" datatype="html">
+        <source> Скачать SDK .NET для Linux с официальной страницы загрузки .NET: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://dotnet.microsoft.com/en-us/download&quot; target=&quot;_blank&quot;&gt;"/> Загрузка .NET <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">56,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4279874268448995902" datatype="html">
+        <source> Установить SDK .NET для Linux, следуя дополнительным инструкциям по установке, предоставленным для конкретного дистрибутива. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">63,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4300028342733983598" datatype="html">
+        <source>3. Построение нативного модуля</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">68,70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8323022561460353403" datatype="html">
+        <source> Для построения нативного модуля для libdomain необходимо выполнить следующие команды: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">71,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8158286666148579636" datatype="html">
+        <source>4. Построение модуля на C#</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">79,81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4799333161395179210" datatype="html">
+        <source> Построение модуля на C# для PowerShell включает использование .NET SDK. Базовый план: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">82,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7723419894220073652" datatype="html">
+        <source>5. Объединение модулей</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">90,92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8881464695076348710" datatype="html">
+        <source> После построения нативного и C# модулей, возможно, потребуется их объединить. Для этого необходимо скопировать бинарные модули в папку bin: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">93,94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="584286883274676008" datatype="html">
+        <source>Как использовать</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">105,107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4264880681577951145" datatype="html">
+        <source>Запуск сценариев</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">107,109</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">127,128</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3022626187030610956" datatype="html">
+        <source> Для запуска сценариев следует запустить PowerShell: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">110,111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2400347564776861911" datatype="html">
+        <source> И выполнить команды: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">116,117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4328618431546059328" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://github.com/libdomain/libdomain-powershell-sample&quot;
+          target=&quot;_blank&quot;&gt;"/>Программа<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> состоит из следующих модулей: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">132,136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8573698834056836685" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>LibDomain.dll<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. Обёртка для нативной библиотеки <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>libdomain_wrapper.so<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> предоставляет возможность импорта функций из нативной библиотеки. Исходные коды для этого модуля находятся в каталоге <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>src<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">138,144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4137904777530705011" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>libdomain_wapper.so<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. Этот модуль загружает libdomain и предоставляет функцию <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>get_root_dse<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. Эта функция затем вызывается из <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>LibDomain.dll<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. Модуль находится в каталоге <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>native<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">150,156</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5884214126089258825" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>Сценарии PowerShell<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. Сценарий импортирует <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>LibDomain.dll<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> и вызывает <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>[LibDomain.Native]::get_root_dse()<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> из него. Сценарии находятся в каталоге <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>module<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-power-shell/example-power-shell.component.html</context>
+          <context context-type="linenumber">160,166</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7668621508411241066" datatype="html">
