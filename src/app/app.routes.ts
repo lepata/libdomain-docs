@@ -8,6 +8,7 @@ import { LicenseComponent } from './license/license.component';
 import { ExampleComponent } from './example/example.component';
 import { ExampleC1Component } from './example-c1/example-c1.component';
 import { ExampleQtComponent } from './example-qt/example-qt.component';
+import { ExamplePowerShellComponent } from './example-power-shell/example-power-shell.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
@@ -45,6 +46,11 @@ export const routes: Routes = [
     path: 'example/exampleqt',
     component: ExampleQtComponent,
     title: $localize `Пример использования библиотеки libdomain совместно с фреймворком Qt`
+  },
+  {
+    path: 'example/powershell',
+    component: ExamplePowerShellComponent,
+    title: $localize `Пример использования библиотеки libdomain совместно с PowerShell`
   },
   {
     path: 'docs',

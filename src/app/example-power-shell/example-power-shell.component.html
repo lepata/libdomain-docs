@@ -1,0 +1,171 @@
+<div class="content row">
+  <div class="text-left">
+    <h3 i18n>Пример использования библиотеки
+      libdomain совместно с PowerShell</h3>
+
+    <blockquote>
+      <h4 i18n>Как построить библиотеку libdomain и модули PowerShell</h4>
+
+      <h5 i18n>1. Установка PowerShell на Linux</h5>
+      <p i18n>
+        Чтобы построить библиотеку libdomain и модули PowerShell на Linux,
+        сначала необходимо установить PowerShell.</p>
+      <p i18n>
+        На дистрибутивах «Альт» для этого
+        достаточно установить пакет powershell:
+      </p>
+
+      <pre class="prettyprint"><code class="language-bsh">apt-get install powershell</code></pre>
+
+      <p i18n>
+        На других дистрибутивах можно выполнить следующие шаги:
+      </p>
+
+      <ol>
+        <li i18n>
+          Скачать пакет для требуемого дистрибутива с официальной страницы
+          выпусков PowerShell на GitHub:
+          <a href="https://github.com/PowerShell/PowerShell/releases" target="_blank">
+            Релизы PowerShell
+          </a>
+        </li>
+        <li i18n>
+          Установить пакет, следуя инструкциям по установке, предоставленным для
+          конкретного дистрибутива.
+        </li>
+      </ol>
+
+      <h5 i18n>2. Установка .NET и SDK на Linux</h5>
+
+      <p i18n>
+        Следующий шаг после установки PowerShell — настройка среды .NET и
+        необходимых SDK.</p>
+      <p i18n>
+        На дистрибутивах «Альт» для этого
+        достаточно установить пакет dotnet-sdk-7.0:
+      </p>
+
+      <pre class="prettyprint"><code class="language-bsh">apt-get install dotnet-sdk-7.0</code></pre>
+
+      <p i18n>
+        На других дистрибутивах можно выполнить следующие шаги:
+      </p>
+
+      <ol>
+        <li i18n>
+          Скачать SDK .NET для Linux с официальной страницы
+          загрузки .NET:
+          <a href="https://dotnet.microsoft.com/en-us/download" target="_blank">
+            Загрузка .NET
+          </a>
+        </li>
+        <li i18n>
+          Установить SDK .NET для Linux, следуя дополнительным инструкциям по установке,
+          предоставленным для конкретного дистрибутива.
+        </li>
+      </ol>
+
+      <h5 i18n>3. Построение нативного модуля</h5>
+
+      <p i18n>
+        Для построения нативного модуля для libdomain необходимо
+        выполнить следующие команды:
+      </p>
+
+      <pre class="prettyprint"><code class="language-bsh">
+$ cd native && mkdir build && cd build && cmake .. && make -j `nproc`
+      </code></pre>
+
+      <h5 i18n>4. Построение модуля на C#</h5>
+
+      <p i18n>
+        Построение модуля на C# для PowerShell включает использование .NET SDK.
+        Базовый план:
+      </p>
+
+      <pre class="prettyprint"><code class="language-bsh">
+$ cd src && dotnet build
+      </code></pre>
+
+      <h5 i18n>5. Объединение модулей</h5>
+
+      <p i18n>
+        После построения нативного и C# модулей, возможно, потребуется их объединить.
+        Для этого необходимо скопировать бинарные модули в папку bin:
+      </p>
+
+      <pre class="prettyprint"><code class="language-c">
+# cp native/build/src/libdomain_wrapper.so ./bin/ && cp src/bin/Debug/net7.0/LibDomain.dll ./bin/
+      </code></pre>
+
+    </blockquote>
+
+    <blockquote>
+
+      <h4 i18n>Как использовать</h4>
+
+      <h5 i18n>Запуск сценариев</h5>
+
+      <p i18n>
+        Для запуска сценариев следует запустить PowerShell:
+      </p>
+
+      <pre class="prettyprint"><code class="language-bsh">powershell</code></pre>
+
+      <p i18n>
+        И выполнить команды:
+      </p>
+
+      <pre class="prettyprint"><code class="language-bsh">
+Import-Module ./module/LibDomain.psm1
+Get-RootDSE
+      </code></pre>
+
+      <div class="lead text-center">
+        <img
+          src="assets/example.png"
+          i18n-alt alt="Запуск сценариев"
+          class="img-fluid">
+      </div>
+
+      <p i18n>
+        <a href="https://github.com/libdomain/libdomain-powershell-sample"
+          target="_blank">Программа</a> состоит из следующих модулей:
+      </p>
+
+      <ol>
+        <li i18n>
+          <span class="font-monospace">LibDomain.dll</span>. Обёртка для нативной
+          библиотеки <span class="font-monospace">libdomain_wrapper.so</span>
+          предоставляет возможность импорта функций из нативной библиотеки.
+          Исходные коды для этого модуля находятся в каталоге
+          <span class="font-monospace">src</span>.
+        </li>
+      </ol>
+
+      <pre class="prettyprint linenums"><code class="lang-c">{{ classPreview2 }}</code></pre>
+
+      <ol start="2">
+        <li i18n>
+          <span class="font-monospace">libdomain_wapper.so</span>. Этот модуль
+          загружает libdomain и предоставляет функцию <span class="font-monospace">get_root_dse</span>.
+          Эта функция затем вызывается из <span class="font-monospace">LibDomain.dll</span>.
+          Модуль находится в каталоге
+          <span class="font-monospace">native</span>.
+        </li>
+      </ol>
+      <pre class="prettyprint linenums"><code class="lang-c">{{ classPreview3 }}</code></pre>
+      <ol start="3">
+        <li i18n>
+          <span class="font-monospace">Сценарии PowerShell</span>. Сценарий
+          импортирует <span class="font-monospace">LibDomain.dll</span> и вызывает
+          <span class="font-monospace">[LibDomain.Native]::get_root_dse()</span> из него.
+          Сценарии находятся в каталоге
+          <span class="font-monospace">module</span>.
+        </li>
+      </ol>
+
+      <pre class="prettyprint linenums"><code class="lang-c">{{ classPreview1 }}</code></pre>
+    </blockquote>
+  </div>
+</div>
