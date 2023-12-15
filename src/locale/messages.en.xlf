@@ -19,7 +19,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.routes.ts</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">23</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3912056945633788310" datatype="html">
@@ -39,7 +39,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.routes.ts</context>
-          <context context-type="linenumber">35</context>
+          <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5331941500811867497" datatype="html">
@@ -51,7 +51,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.routes.ts</context>
-          <context context-type="linenumber">40</context>
+          <context context-type="linenumber">52</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2392294136293635877" datatype="html">
@@ -63,7 +63,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.routes.ts</context>
-          <context context-type="linenumber">45</context>
+          <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6204065670847243062" datatype="html">
@@ -75,7 +75,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.routes.ts</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">32</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3521414494852448067" datatype="html">
@@ -135,7 +135,39 @@
         <target>Libdomain — свободная linux библиотека | BaseALT</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.routes.ts</context>
-          <context context-type="linenumber">16</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9101292395451506108" datatype="html">
+        <source>Пример использования библиотеки libdomain в программе на языке C</source>
+        <target>Example of using the libdomain library in C </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.routes.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example/example.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1424626570860523549" datatype="html">
+        <source>Пример использования библиотеки libdomain совместно с фреймворком Qt</source>
+        <target>Example of using the libdomain library with the Qt framework</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.routes.ts</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example/example.component.html</context>
+          <context context-type="linenumber">9,10</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7046992037802437026" datatype="html">
@@ -170,6 +202,450 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/docs/docs.component.html</context>
           <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6271408593039760502" datatype="html">
+        <source> Ниже приведён пример программы на языке C, которая использует библиотеку libdomain для выполнения операции поиска LDAP. Программа устанавливает соединение с сервером LDAP, выполняет поиск в указанном сервере каталога. </source>
+        <target> The provided example is a C program that demonstrates the use of the libdomain library to perform an LDAP search operation. The program establishes a connection to the LDAP server and executes a search in the specified directory server. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">7,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4345420466434355932" datatype="html">
+        <source> Программа принимает аргументы командной строки для указания параметров соединения с сервером LDAP и параметров поиска: </source>
+        <target> The program takes command-line arguments to specify LDAP server connection parameters and search parameters: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1110501516716276841" datatype="html">
+        <source> Опции командной строки: </source>
+        <target> Command Line Options </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3102595995153199098" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>--host (-h)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — сервер LDAP в формате «протокол://адрес:порт», например, «ldap://example.org:389»; </source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>--host (-h)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — specifies the LDAP server in the format "protocol://address:port," for example, "ldap://example.org:389"; </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">25,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="733745814503711429" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>--user (-u)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — имя пользователя LDAP; </source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>--user (-u)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — specifies the LDAP username; </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">30,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1728604126716996557" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>--pass (-w)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — пароль LDAP; </source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>--pass (-w)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — specifies the LDAP password; </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">33,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5333085779828523630" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>--bind (-b)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — DN (Distinguished Name) для привязки к LDAP, например, «dc=example,dc=org»; </source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>--bind (-b)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — specifies the Distinguished Name (DN) for LDAP binding, for example, "dc=example,dc=org"; </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">36,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1846260873931707698" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>--sasl (-s)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — включить использование SASL-привязки. </source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>--sasl (-s)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — enables the use of SASL binding. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">40,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2599283994683713105" datatype="html">
+        <source>Структура программы</source>
+        <target>Program Structure</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">50,51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7226856730218071504" datatype="html">
+        <source> Функции обработки событий: </source>
+        <target> Event Handling Functions: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">52,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2230168453756996896" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>exit_callback<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — вызывает событие завершения программы; </source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>exit_callback<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — triggers the program exit event; </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">56,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1348921418635573927" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>connection_on_error<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — обрабатывает ошибки во время операций LDAP; </source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>connection_on_error<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — handles errors during LDAP operations; </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">60,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5449041383840984550" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>connection_on_update<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — обрабатывает обновления состояния соединения и обрабатывает ошибки во время установки соединения. </source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>connection_on_update<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — handles connection state updates and errors during connection establishment. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">64,66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4807213641771008821" datatype="html">
+        <source> Обработка опций: </source>
+        <target> Option Parsing: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">71,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5311603505818019044" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>parse_opt<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — разбирает опции командной строки с использованием библиотеки argp. </source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>parse_opt<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — parses command-line options using the argp library. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">75,77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1344928719724067626" datatype="html">
+        <source> Основная функция: </source>
+        <target> Main Function: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">81,82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5385934675527444213" datatype="html">
+        <source> При помощи функции <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>talloc_new<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> создаётся новый контекст <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>talloc<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </source>
+        <target> First, a new <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>talloc<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> context is created using the <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>talloc_new<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> function. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">85,88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7344489290414467947" datatype="html">
+        <source> Инициализируется структура <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>arguments<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>, которая служит для хранения аргументов командной строки. </source>
+        <target> The <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>arguments<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> structure is initialized to store command-line arguments. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">89,91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2177091839591914546" datatype="html">
+        <source> При помощи функции <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>argp_parse<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> производится обработка аргументов командной строки. </source>
+        <target> Command-line arguments are processed using the <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>argp_parse<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> function. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">93,95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3985348763624091449" datatype="html">
+        <source> Происходит проверка обязательных аргументов <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>host<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> и <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>bind_dn<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>, если эти аргументы не найдены программа завершается. </source>
+        <target> Mandatory arguments, such as <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>host<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> and <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>bind_dn<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>, are checked, and the program exits if these arguments are not found. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">97,100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9148192570706515766" datatype="html">
+        <source> Создаётся структура для конфигурации для подключения к серверу LDAP, при помощи функции <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ld_config<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </source>
+        <target> A configuration structure for connecting to the LDAP server is created using the <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ld_config<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> function. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">102,105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2000334795868242761" datatype="html">
+        <source> Инициализируется основной указатель библиотеки handle при помощи функции <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ld_init<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </source>
+        <target> The main library handle is initialized using the <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ld_init<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> function. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">106,109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4632348791381203129" datatype="html">
+        <source> Устанавливаются стандартные обработчики событий <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ld_install_default_handlers(handle)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </source>
+        <target> Default event handlers are installed using <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ld_install_default_handlers(handle)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">110,113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5316219127832445944" datatype="html">
+        <source> Устанавливается обработчик с основной логикой программы: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ld_install_handler(handle, connection_on_update, update_interval)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </source>
+        <target> An event handler with the main program logic is set using <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ld_install_handler(handle, connection_on_update, update_interval)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">114,117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="933854674445962868" datatype="html">
+        <source> Устанавливается обработчик, который выключает программу через 10 секунд: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ld_install_handler(handle, exit_callback, exit_time)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </source>
+        <target> An exit handler that shuts down the program after 10 seconds is installed using  <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ld_install_handler(handle, exit_callback, exit_time)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">118,121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1450828390523077215" datatype="html">
+        <source> Устанавливаются обработчики ошибок. </source>
+        <target> Error handlers are set. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">122,123</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1746661063401689780" datatype="html">
+        <source> Запуск основного цикла событий с помощью <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ld_exec<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </source>
+        <source> The main event loop is started with <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ld_exec<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">125,127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9137697902340468731" datatype="html">
+        <source> Выполняется поиск. </source>
+        <target> LDAP search is performed. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">128,129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1702135515955940713" datatype="html">
+        <source> Очищаются ресурсы при помощи функций: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ld_free(handle)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> и <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>talloc_free(talloc_ctx)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </source>
+        <target> Resources are cleaned up using <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ld_free(handle)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> and <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>talloc_free(talloc_ctx)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> functions. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">131,134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4622675195241440278" datatype="html">
+        <source>Обработка ошибок</source>
+        <target>Error Handling</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">136,138</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">88,90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3399342586463453396" datatype="html">
+        <source> Ошибки, такие как невозможность выполнения операций LDAP, приводят к завершению программы с соответствующим сообщением об ошибке. Обработка ошибок реализована в функции <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>connection_on_error<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. Однако обработка ошибок соединения происходит в функции <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>connection_on_update<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </source>
+        <target>Errors, such as the inability to perform LDAP operations, lead to program termination with the appropriate error message. Error handling is implemented in the <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>connection_on_error<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> function. However, connection error handling occurs in the <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>connection_on_update<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> function. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">139,146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2670628352121323399" datatype="html">
+        <source>Примечания</source>
+        <target>Notes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">146,148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6371149492648846870" datatype="html">
+        <source> Программа выполняет LDAP-поиск при изменении состояния соединения на <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>LDAP_CONNECTION_STATE_RUN<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. Объекты для поиска задаются в переменной <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>LDAP_DIRECTORY_ATTRS<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </source>
+        <target> The program performs an LDAP search when the connection state changes to <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>LDAP_CONNECTION_STATE_RUN<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. Objects for search are specified in the <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>LDAP_DIRECTORY_ATTRS<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> variable. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">149,155</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6684648549470628143" datatype="html">
+        <source>Компиляция</source>
+        <target>Compilation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">155,157</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">98,100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1324162435658082556" datatype="html">
+        <source>https://github.com/libdomain/libdomain-c-sample/blob/master/README.RU.md</source>
+        <target>https://github.com/libdomain/libdomain-c-sample</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">158,159</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6992625710499297202" datatype="html">
+        <source>Ссылка на пример</source>
+        <target>Link</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">159,160</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">102,103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6017443838681983921" datatype="html">
+        <source> Для компиляции программы необходимо установить библиотеку libdomain: </source>
+        <target> To compile the program, you need to install the libdomain library: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">163,164</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">106,107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3752229917449431194" datatype="html">
+        <source> Далее следует склонировать пример: </source>
+        <target> Clone the example: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">169,170</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">112,113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1987189462291114244" datatype="html">
+        <source> Команда компиляции: </source>
+        <target> Use the following compilation command: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-c1/example-c1.component.html</context>
+          <context context-type="linenumber">175,176</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">118,119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7668621508411241066" datatype="html">
+        <source> Ниже приведён пример программы на языке C, которая использует библиотеку libdomain для выполнения операции поиска LDAP. Программа устанавливает соединение с сервером LDAP и выполняет запрос на поиск для получения записи RootDSE в указанном каталоговом сервере. </source>
+        <target> The provided example is a C program that demonstrates the use of the libdomain library to perform an LDAP search operation. The program establishes a connection to the LDAP server and executes a search reques to get RootDSE entry in the specified directory server. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">7,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5736893878775170185" datatype="html">
+        <source> Запуск программы: </source>
+        <target> Usage: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4656474603981429624" datatype="html">
+        <source> Будет открыто диалоговое окно, где пользователь может указать параметры подключения к серверу LDAP: </source>
+        <target> The program has connection dialog to allow user to specify LDAP server connection parameters: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8108696174358261012" datatype="html">
+        <source>Диалог подключения к серверу</source>
+        <target>Connection dialog</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="847814168615252328" datatype="html">
+        <source> Основное окно программы: </source>
+        <target> Main window </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">32,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7835974465540854407" datatype="html">
+        <source>Основное окно программы</source>
+        <target>Main window</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2902671275153411263" datatype="html">
+        <source> Программа состоит из следующих модулей: </source>
+        <target> The program consists of the following modules: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6597150337055388753" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>MainWindow<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — класс, который инициализирует библиотеку libdomain. Следует обратить внимание, что новый цикл событий не запускается, а используется цикл событий qt. Для этого ничего не нужно делать дополнительно, достаточно проинициализировать библиотеку. </source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>MainWindow<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — This class initializes the "libdomain" library. Note that we do not start a new event loop; instead, we use the Qt event loop. To achieve this, no additional steps are required; initializing the library is sufficient. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">49,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6040744832517655050" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>AttributesModel<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — класс унаследованный от <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>QStandardItemModel<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. Данный класс осуществляет основную работу. Он отправляет запрос к LDAP серверу, получая от него список атрибутов записи RootDSE. В конструкторе создаётся поисковый запрос для libdomain и запрашивается список атрибутов при помощи функции <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>search_callback<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. Как только <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>search_callback<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> вызовет сигнал <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>AttributesModelPrivate::ready<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>, начинается заполнение модели данными. Предполагается, что к этому моменту уже есть проинициализированный указатель библиотеки <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ldhandle<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> и соединение уже установлено. </source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>AttributesModel<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — This class, inherited from <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>QStandardItemModel<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>, performs the main work. It sends a request to the LDAP server, obtaining a list of attributes from the RootDSE record. In the constructor, we create a search query for libdomain and retrieve the list of attributes using the <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>search_callback<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>function. Once the <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>search_callback<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> emits the <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>AttributesModelPrivate::ready<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> signal, we begin populating the model with data. It is assumed that by this point, we already have an initialized <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ldhandle<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> pointer, and the connection is already established. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">60,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6303571550295385596" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ConnectionDialog<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — содержит диалог настроек подключения. При успешном заполнении он создаёт структуру <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ConnectionSettings<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ConnectionDialog<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — This class contains the connection settings dialog. Upon successful completion, it creates a <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ConnectionSettings<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> structure </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">77,81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4473634721034078902" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ConnectionSettings<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — содержит настройки подключения такие как: сервер, имя пользователя, пароль, bind_dn, использование интерактивного подключения. </source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ConnectionSettings<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> — This class holds connection settings, such as the server, username, password, bind_dn, and the use of interactive connection. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">82,84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7483825790413074559" datatype="html">
+        <source> Обработка ошибок подключения осуществляется библиотекой libdomain автоматически при помощи встроенных в неё функций. При желании можно установить свой обработчик при помощи функции <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ld_install_error_handler(handle, connection_on_error)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>, передав ей callback нужный <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>connection_on_error<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </source>
+        <target> The error handling is performed automatically by the libdomain library using its built-in functions. If desired, you can set your own error handler using the function <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>ld_install_error_handler(handle, connection_on_error)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> and passing in your own <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-monospace&quot;&gt;"/>connection_on_error<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> callback. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">91,98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5236131762475868012" datatype="html">
+        <source>https://github.com/libdomain/libdomain-qt-sample/blob/master/README.RU.md</source>
+        <target>https://github.com/libdomain/libdomain-qt-sample</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/example-qt/example-qt.component.html</context>
+          <context context-type="linenumber">101,102</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5808334611287108507" datatype="html">
@@ -484,8 +960,8 @@
           <context context-type="linenumber">69</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5960894866551190426" datatype="html">
-        <source>Кажется, что-то пошло не так! Станица, которую вы запрашиваете не существует. Возможно она была удалена, или вы набрали неверный адрес. </source>
+      <trans-unit id="2766369761287172087" datatype="html">
+        <source>Кажется, что-то пошло не так! Страница, которую вы запрашиваете не существует. Возможно она была удалена, или вы набрали неверный адрес. </source>
         <target>It seems something went wrong! The page you are requesting does not exist. It may have been deleted, or you may have entered the wrong address.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page-not-found/page-not-found.component.html</context>
