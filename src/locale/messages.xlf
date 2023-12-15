@@ -38,6 +38,13 @@
           <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="3824682829872179879" datatype="html">
+        <source>assets/libdomain.pdf</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="5331941500811867497" datatype="html">
         <source>Документация</source>
         <context-group purpose="location">
