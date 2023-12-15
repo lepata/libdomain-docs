@@ -1,6 +1,6 @@
 <div class="content row">
   <div class="text-left">
-      <h3>Пример использования библиотеки libdomain в программе на языке C</h3>
+      <h3 i18n>Пример использования библиотеки libdomain в программе на языке C</h3>
 
     <blockquote>
       <p i18n>
@@ -9,35 +9,34 @@
         Программа устанавливает соединение с сервером LDAP,
         выполняет поиск в указанном сервере каталога.
       </p>
-      <p></p>
 
       <p i18n>
         Программа принимает аргументы командной строки для указания параметров
         соединения с сервером LDAP и параметров поиска:
       </p>
 
-      <pre class="prettyprint lang-bash">./libdomain-c-sample --host ldap://dc.example.org:389 --user administrator --pass password --bind "dc=example,dc=org" --sasl</pre>
+      <pre class="prettyprint lang-bash">$ ./libdomain-c-sample --host ldap://dc.example.org:389 --user administrator --pass password --bind "dc=example,dc=org" --sasl</pre>
 
       <p i18n>
         Опции командной строки:
       </p>
       <ul>
-        <li>
+        <li i18n>
           <span class="font-monospace">--host (-h)</span> — сервер LDAP
           в формате «протокол://адрес:порт»,
           например, «ldap://example.org:389»;
         </li>
-        <li>
+        <li i18n>
           <span class="font-monospace">--user (-u)</span> — имя пользователя LDAP;
         </li>
-        <li>
+        <li i18n>
           <span class="font-monospace">--pass (-w)</span> — пароль LDAP;
         </li>
-        <li>
+        <li i18n>
           <span class="font-monospace">--bind (-b)</span> — DN (Distinguished Name) для привязки к LDAP,
           например, «dc=example,dc=org»;
         </li>
-        <li>
+        <li i18n>
           <span class="font-monospace">--sasl (-s)</span> — включить
           использование SASL-привязки.
         </li>
@@ -48,20 +47,20 @@
 
 
     <blockquote>
-      <h4>Структура программы</h4>
+      <h4 i18n>Структура программы</h4>
       <p i18n>
         Функции обработки событий:
       </p>
       <ul>
-        <li>
+        <li i18n>
           <span class="font-monospace">exit_callback</span> — вызывает событие
           завершения программы;
         </li>
-        <li>
+        <li i18n>
           <span class="font-monospace">connection_on_error</span> — обрабатывает
           ошибки во время операций LDAP;
         </li>
-        <li>
+        <li i18n>
           <span class="font-monospace">connection_on_update</span> — обрабатывает
           обновления состояния соединения и обрабатывает ошибки
           во время установки соединения.
@@ -72,7 +71,7 @@
         Обработка опций:
       </p>
       <ul>
-        <li>
+        <li i18n>
           <span class="font-monospace">parse_opt</span> — разбирает опции
           командной строки с использованием библиотеки argp.
         </li>
@@ -82,61 +81,61 @@
         Основная функция:
       </p>
       <ol>
-        <li>
+        <li i18n>
           При помощи функции <span class="font-monospace">talloc_new</span>
           создаётся новый контекст <span class="font-monospace">talloc</span>.
         </li>
-        <li>
+        <li i18n>
           Инициализируется структура <span class="font-monospace">arguments</span>,
           которая служит для хранения аргументов командной строки.
         </li>
-        <li>
+        <li i18n>
           При помощи функции <span class="font-monospace">argp_parse</span>
           производится обработка аргументов командной строки.
         </li>
-        <li>
+        <li i18n>
           Происходит проверка обязательных аргументов <span class="font-monospace">host</span>
           и <span class="font-monospace">bind_dn</span>,
           если эти аргументы не найдены программа завершается.
         </li>
-        <li>
+        <li i18n>
           Создаётся структура для конфигурации для подключения к серверу LDAP,
           при помощи функции <span class="font-monospace">ld_config</span>.
         </li>
-        <li>
+        <li i18n>
           Инициализируется основной указатель библиотеки handle при помощи
           функции <span class="font-monospace">ld_init</span>.
         </li>
-        <li>
+        <li i18n>
           Устанавливаются стандартные обработчики событий
           <span class="font-monospace">ld_install_default_handlers(handle)</span>.
         </li>
-        <li>
+        <li i18n>
           Устанавливается обработчик с основной логикой программы:
           <span class="font-monospace">ld_install_handler(handle, connection_on_update, update_interval)</span>.
         </li>
-        <li>
+        <li i18n>
           Устанавливается обработчик, который выключает программу через 10 секунд:
           <span class="font-monospace">ld_install_handler(handle, exit_callback, exit_time)</span>.
         </li>
-        <li>
+        <li i18n>
           Устанавливаются обработчики ошибок.
         </li>
-        <li>
+        <li i18n>
           Запуск основного цикла событий с помощью <span class="font-monospace">ld_exec</span>.
         </li>
-        <li>
+        <li i18n>
           Выполняется поиск.
         </li>
-        <li>
+        <li i18n>
           Очищаются ресурсы при помощи функций: <span class="font-monospace">ld_free(handle)</span>
           и <span class="font-monospace">talloc_free(talloc_ctx)</span>.
         </li>
       </ol>
 
-      <h4>Обработка ошибок</h4>
+      <h4 i18n>Обработка ошибок</h4>
 
-      <p>
+      <p i18n>
         Ошибки, такие как невозможность выполнения операций LDAP, приводят
         к завершению программы с соответствующим сообщением об ошибке. Обработка
         ошибок реализована в функции <span class="font-monospace">connection_on_error</span>.
@@ -144,14 +143,39 @@
         <span class="font-monospace">connection_on_update</span>.
       </p>
 
-      <h4>Примечания</h4>
+      <h4 i18n>Примечания</h4>
 
-      <p>
+      <p i18n>
         Программа выполняет LDAP-поиск при изменении состояния соединения
         на <span class="font-monospace">LDAP_CONNECTION_STATE_RUN</span>.
         Объекты для поиска задаются в переменной
         <span class="font-monospace">LDAP_DIRECTORY_ATTRS</span>.
       </p>
+
+      <h4 i18n>Компиляция</h4>
+
+      <p>
+        <a i18n-href href="https://github.com/libdomain/libdomain-c-sample/blob/master/README.RU.md"
+          target="_blank" i18n>Ссылка на пример</a>
+      </p>
+
+      <p i18n>
+        Для компиляции программы необходимо установить библиотеку libdomain:
+      </p>
+
+      <pre class="prettyprint lang-bash"># apt-get install libdomain-devel libconfig-devel</pre>
+
+      <p i18n>
+        Далее следует склонировать пример:
+      </p>
+
+      <pre class="prettyprint lang-bash">$ git clone https://github.com/libdomain/libdomain-c-sample</pre>
+
+      <p i18n>
+        Команда компиляции:
+      </p>
+
+      <pre class="prettyprint lang-bash">$ mkdir build && cd build && cmake .. && make -j `nproc`</pre>
     </blockquote>
   </div>
 </div>
